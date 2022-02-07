@@ -26,7 +26,7 @@
                 <a class="nav-link me-4 dropdown-toggle drop dropdown-font " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                  Категорії 
                 </a>
-                <ul class="dropdown-menu bootstrap_gray " aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu bootstrap_gray" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Ігри</a></li>
                   <li><a class="dropdown-item" href="#">Фільми</a></li>
                   <li><a class="dropdown-item" href="#">Серіали</a></li>
@@ -35,7 +35,7 @@
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-0 search-field" type="search2" placeholder="Пошук...">
+              <input class="form-control me-0 input-field" type="search2" placeholder="Пошук...">
               <button class="btn search-btn me-0 " type="submit"></button>
             </form>
               <div class="row">
@@ -55,15 +55,26 @@
       <div class="container-fluid my-0">
         <div class="row">
           <div class="col-sm-4 ">
-            <img src="img/conor.svg"  class ="img-fluid" alt=""> 
+            <img src="img/conor.svg "  class ="img-fluid" alt=""> 
           </div>
-          <div class="col-sm-5 ms-5 my-5 auth-window text-center"> 
+          <div class="col-sm-5 ms-5 my-5 auth-window text-center "> 
               <label class="  auth-lable my-4">Вхід</label>
               <hr class="hr-style ">
               <form class="d-flex">
-                
-                <label class="font-style ">Login:</label> 
-                  <input type="" class="form-control w-auto search-field"  >
+                <div class="container-fluid ">
+                  <div class="row ">
+                    <label class="font-style my-3">Login:</label> 
+                    <input type="login" class="form-control w-50 login-field my-3 input-field">
+                 </div>
+                 <div class="row">
+                  <label class="font-style my-4">Password:</label> 
+                  <input type="login" class="form-control w-50 login-field my-2 input-field">
+                  <a class="link-font my-3"> Гендерно нейтрально забули пароль?</a>
+                </div>
+                <hr class="hr-style ">
+                  <button class="login-button my-3">Вхід</button>
+                </div>
+               </div>
               </form>
           </div>
         </div>  
