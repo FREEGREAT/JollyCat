@@ -106,7 +106,6 @@ border-radius: 9px;
     font-variant: small-caps;
     text-decoration: none;
 }
-
 /*Вікно авторизації*/
 .login-button{
     font-family: 'Montserrat';
@@ -157,19 +156,24 @@ border-radius: 9px;
     border: 10px solid white;
     border-radius: 5px;
 }
-
-
 /* Головна сторінка*/
 .border-name{
     border: 3px solid #202020;
     border-radius: 5px;
 }
 .theme-lable{
-
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 127.9%;
+    letter-spacing: -0.04em;
+    font-variant: small-caps;
     color: white;
     background-color:#202020;
 }
-.theme-font{
+.forum-name{
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -177,6 +181,52 @@ border-radius: 9px;
     line-height: 21px;
     color: white;
 }
+.theme-list-color{
+    background-color:#5D5D5D;
+}
+.theme-name:hover{
+    color:#757575;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.theme-name{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    color: white;  
+}
 
-
-
+.hr-style-table{
+    position: relative; 
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+.window-name-font{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 127.9%;
+    letter-spacing: -0.04em;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+.hot-theme-window-back{
+    background-color:#828282;
+}
+.hot-theme-back{
+    border:1px;
+    border-radius: 13px;
+    background-color:#5D5D5D;
+}
+.vl {
+    border-left: 3px solid #202020;
+    height: 555px;
+}
+.around-window{
+    border: 1px;
+    border-radius: 10px;
+}
