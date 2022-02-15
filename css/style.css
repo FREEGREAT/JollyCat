@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
   background: #E5E5E5;
   font-family: 'Montserrat';
@@ -210,6 +211,12 @@ border-radius: 9px;
     border: 3px solid #000000;
     border-radius: 5px;
 }
+.hr-style-profile{
+    position: relative; 
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
 .window-name-font{
     font-family: "Roboto";
     font-style: normal;
@@ -235,4 +242,28 @@ border-radius: 9px;
 .around-window{
     border: 1px;
     border-radius: 10px;
+}
+.profile-window{
+    background-color:#242424;
+}
+.nickname{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.profile-info{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.profile-avatar{
+    width: 246px;
+height: 236px;
 }
