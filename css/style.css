@@ -191,20 +191,7 @@ border-radius: 9px;
 .theme-list-color{
     background-color:#5D5D5D;
 }
-.theme-name:hover{
-    color:#757575;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.theme-name{
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    text-decoration: none;
-    color: white;  
-}
+
 
 .hr-style-table{
     position: relative; 
@@ -250,7 +237,7 @@ border-radius: 9px;
 }
 .vl-main{
     border-left: 3px solid #202020;
-    height: 555px;
+    height: 386px;
 }
 .around-window{
     border: 1px;
