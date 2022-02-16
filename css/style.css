@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
   background: #E5E5E5;
   font-family: 'Montserrat';
@@ -73,6 +74,8 @@ border-radius: 9px;
     color: white;
     box-shadow: inset 0 2px 2px rgba(0,0,0,.075),0 0 8px rgba(12, 12, 12, 0.87);
 }
+
+
 /*Загальні стилі */
 .bootstrap_gray{
     background:#3C3C3C;
@@ -106,6 +109,8 @@ border-radius: 9px;
     font-variant: small-caps;
     text-decoration: none;
 }
+
+
 /*Вікно авторизації*/
 .login-button{
     font-family: 'Montserrat';
@@ -156,6 +161,8 @@ border-radius: 9px;
     border: 10px solid white;
     border-radius: 5px;
 }
+
+
 /* Головна сторінка*/
 .border-name{
     border: 3px solid #202020;
@@ -184,26 +191,19 @@ border-radius: 9px;
 .theme-list-color{
     background-color:#5D5D5D;
 }
-.theme-name:hover{
-    color:#757575;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.theme-name{
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    text-decoration: none;
-    color: white;  
-}
+
 
 .hr-style-table{
     position: relative; 
     border: 3px solid #000000;
     border-radius: 5px;
 }
+.hr-style-profile{
+    position: relative; 
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
 .window-name-font{
     font-family: "Roboto";
     font-style: normal;
@@ -222,14 +222,28 @@ border-radius: 9px;
     border-radius: 13px;
     background-color:#5D5D5D;
 }
-.vl {
+.vl-film {
     border-left: 3px solid #202020;
-    height: 555px;
+    height: 639px;
+}
+.vl-anime{
+    border-left: 3px solid #202020;
+    height: 513px;
+
+}
+.vl-game{
+    border-left: 3px solid #202020;
+    height: 639px;
+}
+.vl-main{
+    border-left: 3px solid #202020;
+    height: 386px;
 }
 .around-window{
     border: 1px;
     border-radius: 10px;
 }
+/*<<<<<<< HEAD*/
 
 
 /*Створити тему*/
@@ -346,4 +360,47 @@ border-radius: 9px;
     text-align: center;
     padding-right: 8%;
     padding-left: 8%;
+}
+/*=======*/
+
+.profile-window{
+    background-color: #242424;
+}
+.nickname{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.profile-info{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.profile-avatar{
+    border-color: #242424;
+    background-color:#242424;
+}
+
+.theme-link{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    text-decoration: none;
+    color: white;  
+}
+
+.theme-link:hover{
+    color:#757575;
+    cursor: pointer;
+    text-decoration: underline;
+/*>>>>>>> 9177c7634f882884a7a5854a9d4c61a43268dfe7*/
 }
