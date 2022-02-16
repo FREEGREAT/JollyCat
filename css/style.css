@@ -235,7 +235,20 @@ border-radius: 9px;
     border-radius: 13px;
     background-color:#5D5D5D;
 }
-.vl {
+.vl-film {
+    border-left: 3px solid #202020;
+    height: 639px;
+}
+.vl-anime{
+    border-left: 3px solid #202020;
+    height: 513px;
+
+}
+.vl-game{
+    border-left: 3px solid #202020;
+    height: 639px;
+}
+.vl-main{
     border-left: 3px solid #202020;
     height: 555px;
 }
@@ -264,6 +277,22 @@ border-radius: 9px;
 }
 
 .profile-avatar{
-    width: 246px;
-height: 236px;
+    border-color: #242424;
+    background-color:#242424;
+}
+
+.theme-link{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    text-decoration: none;
+    color: white;  
+}
+
+.theme-link:hover{
+    color:#757575;
+    cursor: pointer;
+    text-decoration: underline;
 }
