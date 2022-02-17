@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
   background: #E5E5E5;
@@ -243,55 +242,11 @@ border-radius: 9px;
 .vl-series{
     border-left: 3px solid #202020;
     height: 660px;
-
 }
 .around-window{
     border: 1px;
     border-radius: 10px;
 }
-/*<<<<<<< HEAD*/
-
-
-/*Створити тему*/
-#window11{
-	background-color: #626262;
-}
-
-#line11{
-	background-color: #3A3A3A;
-    line-height: 0.5;
-}
-
-
-
-#button11{
-	background-color: #242424;
-    color: #FFFFFF;
-    font-size: 15px;
-    border-color: #242424;
-    margin-right: -7%;
-    padding: 8px;
-}
-
-#pole111{
-    font-family: "Montserrat";
-    margin-right: 30px;
-    background-color:#242424;
-    color: #FFFFFF;
-    border-color: #242424;
-    font-size: 25px;
-    padding: 30px;
-}
-
-#pole211{
-    font-family: "Montserrat";
-    margin-right: 30px;
-    background-color:#242424;
-    color: #FFFFFF;
-    border-color: #242424;
-    font-size: 18px;
-}
-
 .change-pass-text{
     font-family: "Montserrat";
     color: #FFFFFF;
@@ -299,71 +254,7 @@ border-radius: 9px;
     margin-right: -18px;
     justify-content: center;
     margin-top: 3.5%;
-    
-    
 }
-#content11{
-	background-color: #3A3A3A;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-}
-
-/*Створити акаунт*/
-
-#window{
-    font-family: "Montserrat";
-	background-color: #484848;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-
-#text{
-    text-align: center;
-    margin: 25px;
-    letter-spacing: -0.04em;
-    margin-bottom: 15px;
-}
-
-#line{
-    background: linear-gradient(180deg, #FFFFFF -408.33%, rgba(0, 0, 0, 0.0729167) 1441.46%, rgba(0, 0, 0, 0) 1441.64%);
-    border-radius: 4px;
-    font-size: 6px;
-
-}
-
-#text1{
-    font-family: "Montserrat";
-    text-align: center;
-    margin: 10px;
-    font-size: 18px;
-}
-
-#pole1{
-    background-color:#484848;
-    border: 3px solid #EAEAEA;
-    border-radius: 15px;
-    margin-right: 70px;
-    margin-left: 70px;
-}
-
-#button{
-    font-family: "Montserrat";
-	background: linear-gradient(180deg, #8C8C8C -32.65%, rgba(140, 140, 140, 0) 147.96%);
-    filter: drop-shadow(5px 5px 10px rgba(109, 109, 109, 0.37));
-    border-radius: 9px;
-    color: #FFFFFF;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    padding-right: 8%;
-    padding-left: 8%;
-}
-/*=======*/
-
 .profile-window{
     background-color: #242424;
 }
@@ -383,13 +274,11 @@ border-radius: 9px;
     line-height: 21px;
     color: #FFFFFF;
 }
-
 .profile-avatar{
     border-color: #242424;
     border: 20px;
     background-color:#242424;
 }
-
 .theme-link{
     font-family: "Roboto";
     font-style: normal;
@@ -399,10 +288,21 @@ border-radius: 9px;
     text-decoration: none;
     color: white;  
 }
-
 .theme-link:hover{
     color:#757575;
     cursor: pointer;
     text-decoration: underline;
-/*>>>>>>> 9177c7634f882884a7a5854a9d4c61a43268dfe7*/
+}
+.change-pass-window{
+    background-color: #626262;
+}
+.change-pass-line{
+	background-color: #3A3A3A;
+    line-height: 0.5;
+}
+.change-pass-font{
+	background-color: #3A3A3A;
+    color: white;
+    font-size: 18px;
+    text-align: center;
 }
