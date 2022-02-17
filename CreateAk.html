@@ -5,6 +5,7 @@
     <meta name="viewport" content="wigth=device-width, initial-scale=1">
     <title>Створити акаунт</title>
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon/paw.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -52,49 +53,37 @@
       </nav>
     </header>
     <main> 
-	<div class="container-fluid my-0">
-			<div class="row">
-				<div class="col-sm-5"></div>
-				<div id="window" class="col-sm-4 my-5 auth-window">
-                    <div id="text">Створіть акаунт</div>
-                <div id="line" class="col-sm shadow-none">
-                    <br>
+      <div class="container-fluid my-0">
+        <div class="row">
+          <div class=" d-sm-none d-md-block  d-none d-sm-block d-md-none d-lg-block	 col-sm-4 position-relative ">
+            <img src="img/conor.svg "  class =" position-absolute top-0 start-0 align-bottom  " alt=""> 
+          </div>
+          <div class="col-md-5 col-12  my-5 auth-window text-center  "> 
+              <label class="  auth-lable my-4">Створіть акаунт</label>
+              <hr class="hr-style ">
+              <form class="d-flex">
+                <div class="container-fluid ">
+                  <div class="row position-relative ">
+                      <label class="font-style my-3 ">Логін:</label> 
+                      <input type="login" class="form-control w-50  login-field my-2  input-field position-relative  top-100 start-50 translate-middle" placeholder="Придумайте нікнейм">
+                 </div>
+                 <div class="row position-relative ">
+                  <label class="font-style my-3 ">Пароль:</label> 
+                  <input type="login" class="form-control w-50  login-field my-2  input-field position-relative  top-100 start-50 translate-middle" placeholder="Придумайте пароль">
+             </div>
+             <div class="row position-relative ">
+              <label class="font-style my-3 ">Пошта:</label> 
+              <input type="login" class="form-control w-50  login-field my-2  input-field position-relative  top-100 start-50 translate-middle " placeholder="Введіть вашу пошту">
+         </div>
+                <hr class="hr-style ">
+                  <button class="login-button my-3 w-auto">Створити акаунт</button>
                 </div>
-
-                <div id="text1">Придумайте логін</div>
-
-                <div class="input-group">
-                    <input id="pole1" type="text" class="form-control  rounded-pill" >
-                </div>
-
-                <div id="text1">Пароль</div>
-                
-                <div class="input-group">
-                    <input id="pole1" type="text" class="form-control rounded-pill" >
-                </div>
-                
-                <div id="text1">Повторіть пароль</div>
-
-                <div class="input-group">
-                    <input id="pole1" type="text" class="form-control rounded-pill" >
-                </div>
-
-                <br>
-                
-                <div id="line" class="col-sm shadow-none">
-                    <br>
-                </div>
-
-                <button id="button" type="button" class="btn btn-secondary btn-md">Створити</button>
-
-				</div>
-				<div class="col-sm-3"></div>
-
-                
-			</div>
-	</div>
-
-	</main>
+              </form>
+               </div>
+              
+          </div>
+        </div>  
+      </div>
     <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>

@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="wigth=device-width, initial-scale=1">
-    <title>Створити тему</title>
+    <title>Змінити пароль</title>
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon/paw.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -52,76 +53,54 @@
       </nav>
     </header>
     <main> 
-	<div class="container-fluid my-0">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div id="window11" class="col-sm-8 my-5 auth-window shadow-none">
-					<br><br>
-				<div class="row">
-					
-					<div id="line11" class="col-sm shadow-none">
-						<br>
-					</div>
-					
-				</div>
-				
-				
-				<div class="row">
-				
-					<div class="col-sm-2"></div>
-					
-					<div id="content11" class="col-sm-8 my-0 auth-window shadow-none">
-            <br>
+      <div class="container-fluid position-relative top-100 my-5  ">
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div id="window11" class="col-sm-8 my-5 auth-window shadow-none">
+              <br><br>
             <div class="row">
-              <div id="text111" class="col-sm-3 text-end">Назва теми</div>
-              <div class="col-sm-9">
-                <div class="input-group">
-                  <input id="pole111" type="text" class="form-control" placeholder="Нова тема...">
+              <div id="line11" class="col-sm shadow-none">
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div id="content11" class="col-sm-8 my-0 auth-window shadow-none">
+                <br>
+                <form >
+                  <div class="row">
+                  
+                    <div class="col-3">
+                      <p  class="col-sm-3 ms-5 change-pass-text ">Новий пароль</p>
+                    </div>
+                    <div class="col-9">
+                        <input  type="password" class="form-control input-field my-4  " placeholder="Придумайте новий пароль...">
+                    </div>
+                    <div class="col-3">
+                      <p  class="col-sm-3 ms-5 change-pass-text ">Повторіть пароль</p>
+                    </div>
+                    <div class="col-9">
+                        <input  type="password" class="form-control input-field my-2  " placeholder="Повторіть введений пароль...">
+                    </div>
+                    <div class="col-12">
+                      <button class="login-button ">Відновити пароль</button>
+                    </div>
                 </div>
+                </form>
+                
+                <br>
               </div>
             </div>
-
-            <br>
-
             <div class="row">
-              <div id="text11" class="col-sm-3 text-end">Зміст</div>
-              <div class="col-sm-9">
-                <div class="input-group">
-                  <input id="pole211" type="text" class="form-control" placeholder="Введіть зміст...">
-                </div>
-              </div>
+              <div id="line11" class="col-sm shadow-none">
+                <br>
+              </div>    
             </div>
-
-            <br>
-            
-            <div class="row">
-              <div class="col-sm-7"></div>
-              <div class="col-sm-4">
-                <button id="button11" type="button" class="btn btn-secondary btn-sm">Створити обговорення</button>
-              </div>
-              <div class="col-sm-1"></div>
+              <br><br>
             </div>
-            <br>
-					</div>
-				
-					<div class="col-sm-2"></div>
-				
-				</div>
-				
-				<div class="row">
-				
-					<div id="line11" class="col-sm shadow-none">
-						<br>
-					</div>
-					
-				</div>
-					<br><br>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-	</div>
-
-	</main>
+          </div>
+      </div>
+    </main>
     <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>
