@@ -39,7 +39,7 @@ border-radius: 9px;
     size: 24px;
     text-decoration: underline;
 }
-.avatar{  
+#avatar{  
     height: 90px;
     width: 90px;
     border-radius: 20%;
@@ -83,6 +83,7 @@ border-radius: 9px;
 }
 .theme-whindow-gray{
     background-color:#202020;
+    border-radius:14px;
 } 
 .link-font:hover{
     color:#757575;
@@ -195,7 +196,7 @@ border-radius: 9px;
 
 .hr-style-table{
     position: relative; 
-    border: 3px solid #000000;
+    border: 2px solid #202020;
     border-radius: 5px;
 }
 .hr-style-profile{
@@ -211,7 +212,7 @@ border-radius: 9px;
     font-size: 48px;
     line-height: 127.9%;
     letter-spacing: -0.04em;
-    font-variant: small-caps;
+    
     color: #FFFFFF;
 }
 .hot-theme-window-back{
@@ -225,6 +226,10 @@ border-radius: 9px;
 .vl-film {
     border-left: 3px solid #202020;
     height: 639px;
+}
+.vl-disscusion {
+    border-left: 3px solid #202020;
+    height: 575px;
 }
 .vl-anime{
     border-left: 3px solid #202020;
@@ -302,4 +307,21 @@ border-radius: 9px;
     color: white;
     font-size: 18px;
     text-align: center;
+}
+.for-discussion-lable::after,
+.for-discussion-lable:hover,
+.for-discussion-lable:active,
+.for-discussion-lable:focus,
+.for-discussion-lable{
+    font-family: "Roboto";
+    background-color:#3B3B3B;
+    color: white;
+    cursor:default;
+    border: 120px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 127.9%;
+    letter-spacing: -0.04em; 
+    color:white;
 }
