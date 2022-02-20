@@ -12,12 +12,12 @@ function sendRequest(method,url,body = null){
         return response.json()
     })
 
-    
 }
 const body = {
-    name: 'vovchyk',
+    name: 'Jorik',
     age: 145
 }
 sendRequest('POST', userURL, body)
     .then(data => console.log(data))
     .catch(err => console.log(err))
+
