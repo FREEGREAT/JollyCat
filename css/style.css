@@ -10,9 +10,6 @@ body{
 }
 
 /* Панель навігації*/
-.logo{
-border-radius: 9px;
-}
 .logo:hover{
     box-shadow: inset 0 2px 2px rgba(0,0,0,.075),0 0 8px rgba(12, 12, 12, 0.87);
 }
@@ -124,12 +121,27 @@ border-radius: 9px;
    left: 1129.81px;
    top: 778px;
 }
+.comment-button{
+    background: #242424;
+    color:white;
+    border: 2px;
+    border-radius: 34px;
+    width: 161px;
+    height: 34px;
+    left: 1198px;
+    top: 431px;
+}
+.comment-button:hover{
+    background-color: #1a1a1a;
+    color: white;
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.075),0 0 8px rgba(12, 12, 12, 0.87);
+}
 .login-button:hover{
     background-color: #1a1a1a;
     color: white;
     box-shadow: inset 0 2px 2px rgba(0,0,0,.075),0 0 8px rgba(12, 12, 12, 0.87);
 }
-.input-field:hover,
+
 .input-field:focus{
     background-color: #1a1a1a;
     color:white;  
@@ -137,6 +149,8 @@ border-radius: 9px;
     outline:0;
     box-shadow: inset 0 2px 2px rgba(0,0,0,.075),0 0 8px rgba(12, 12, 12, 0.87);
 }
+
+.input-field:read-only,
 .input-field{
     background-color: #242424;
     border-color: #242424;
@@ -158,10 +172,7 @@ border-radius: 9px;
     letter-spacing: -0.04em;
     font-variant: small-caps;
 }
-.hr-style{
-    border: 10px solid white;
-    border-radius: 5px;
-}
+
 
 
 /* Головна сторінка*/
@@ -199,6 +210,11 @@ border-radius: 9px;
     border: 2px solid #202020;
     border-radius: 5px;
 }
+.hr-style{
+    border: 2px solid  #AFAFAF;;
+    position: relative; 
+    border-radius: 5px;
+}
 .hr-style-profile{
     position: relative; 
     border: 3px solid white;
@@ -225,7 +241,7 @@ border-radius: 9px;
 }
 .vl-film {
     border-left: 3px solid #202020;
-    height: 639px;
+    height: 621px;
 }
 .vl-disscusion {
     border-left: 3px solid #202020;
@@ -233,7 +249,7 @@ border-radius: 9px;
 }
 .vl-anime{
     border-left: 3px solid #202020;
-    height: 513px;
+    height: 499px;
 
 }
 .vl-game{
@@ -242,11 +258,11 @@ border-radius: 9px;
 }
 .vl-main{
     border-left: 3px solid #202020;
-    height: 386px;
+    height: 375px;
 }
 .vl-series{
     border-left: 3px solid #202020;
-    height: 660px;
+    height: 645px;
 }
 .around-window{
     border: 1px;
@@ -324,4 +340,9 @@ border-radius: 9px;
     line-height: 127.9%;
     letter-spacing: -0.04em; 
     color:white;
+}
+
+.w-border{
+    border: 3px solid #AFAFAF;
+    border-radius: 2px;
 }

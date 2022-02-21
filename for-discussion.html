@@ -9,52 +9,9 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="shortcut icon" href="icon/paw.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-</head>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bootstrap_gray">
-        <div class="container-fluid"> 
-          <div class="row">
-            <div class="col">
-              <a class="navbar-brand " href="MainPage.html"> <img class="logo w-25" src="img/logo1.svg" alt="" srcset="">  </a>
-              <a class="navbar-brand"> <img id = "Name" class="w-50" src="img/Name1.svg" alt="" srcset="">  </a>
-            </div>
-          </div> 
-          <button class="navbar-toggler me-xs-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon me-xs-0"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link me-4 dropdown-toggle drop dropdown-font " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Категорії 
-                </a>
-                <ul class="dropdown-menu bootstrap_gray" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="MainPage.html">Ігри</a></li>
-                  <li><a class="dropdown-item" href="film.html">Фільми</a></li>
-                  <li><a class="dropdown-item" href="series.html">Серіали</a></li>
-                  <li><a class="dropdown-item" href="anime.html">Аніме</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-0 input-field" type="search2" placeholder="Пошук...">
-              <button class="btn search-btn me-0 " type="submit"></button>
-            </form>
-              <div class="row">
-                <div class=" col-xs-12 col-sm-9">
-                  <a href="create-acc.html"><button class="btn auth-btn my-2">Створити акаунт</button></a>  
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                  <a href="login.html"><button class="btn auth-btn my-2">Вхід</button></a> 
-              </div>
-            </div>
-            <a href="profile.html"><img id="avatar"  class = "  ms-sm-5" src="img/avatar.jpg" alt="GG" ></a>
-              </div>      
-          </div>
-      </nav>
-    </header>
+    <header></header>
     <main>
       <main>
         <div class="container-fluid  px-5 w-auto   my-5">
@@ -62,7 +19,10 @@
               <div class="row text-end">
                 <div class="col-sm-7 text-start">
                   <h1 class="window-name-font ">Форуми JOLLY CAT ➔ те що обговорюється</h1>
-                </div>         
+                </div>
+                <div class="col-sm-5 my-2 text-center text-sm-end">
+                  <a href="create-theme.html"><button class="login-button ms-5">Створити тему</button></a>
+                </div>          
               </div>
               <div class=" around-window col-12  my-1 theme-list-color  ">
                   <div class="border-name my-3">
@@ -84,7 +44,7 @@
                           <button class=" ms-5 ms-sm-3 my-2 for-discussion-lable"> Теми</button>
                         </div>
                         <div class="d-none d-sm-block ms-sm-5 col-sm-2">
-                          <button class=" ms-sm-5 ms-5 my-2 for-discussion-lable">Останнє повідомлення</button>
+                          <button class=" ms-sm-5 d-none d-sm-block  ms-5 my-2 for-discussion-lable">Останнє повідомлення</button>
                         </div>
                       </div>
                       <div class=" hr-style-table"></div>
@@ -148,5 +108,6 @@
     </main>	
     
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/head.js"></script>
   </body>
 </html>
