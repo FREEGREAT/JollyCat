@@ -1,23 +1,17 @@
-const userURL = `https://jsonplaceholder.typicode.com/users`
 
-function sendRequest(method,url,body = null){
-    const headers = {
-        'Content-Type': 'application/json'
-    }
-    return fetch(url, {
-        method: method,
-        body: JSON.stringify(body),
-        headers: headers
-    }).then(response =>{
-        return response.json()
-    })
 
+async function getResponse(){
+    let response = await fetch('https://jsonplaceholder.typicode.com/photos')
+    let content  = await response.json()
+    console.log(content.splice(0,10))
+    let avatar = document.querySelector('.profile-info')
+
+    document.getElementById('avatar').src = URL.toString(content[1].url)
+    
+    
+ 
+  
 }
-const body = {
-    name: 'Jorik',
-    age: 145
-}
-sendRequest('POST', userURL, body)
-    .then(data => console.log(data))
-    .catch(err => console.log(err))
 
+
+getResponse();
