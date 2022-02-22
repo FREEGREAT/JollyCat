@@ -21,7 +21,55 @@
                   <h1 class="window-name-font ">Форуми JOLLY CAT ➔ те що обговорюється</h1>
                 </div>
                 <div class="col-sm-5 my-2 text-center text-sm-end">
-                  <a href="create-theme.html"><button class="login-button ms-5">Створити тему</button></a>
+                  <button class="login-button ms-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Створити тему
+                  </button>
+                  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog ">
+                      <div class="modal-content theme-whindow-gray ">
+                        <div class="modal-header ">
+                          <h5 class="modal-title forum-name" id="exampleModalLabel">Створити нову тему</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрити"></button>
+                        </div>
+                        <div class="modal-body theme-whindow-gray">
+                            <div class="row theme-whindow-gray text-center m-5">
+                              <div class="col-12 ">
+                                <label class="forum-name  my-2"> Назва теми: </label>
+                              </div>
+                              <div class="col-12 ">
+                                <input
+                                  type="login"
+                                  class="form-control input-field"
+                                  placeholder="Введіть назву вашої теми:"
+                                  required
+                                  maxlength="100"
+                                />
+                              </div>
+                            </div>
+                            <div class="row theme-whindow-gray text-center m-5">
+                              <div class="col-12 ">
+                                <label class="forum-name  my-2"> Опис теми:</label>
+                              </div>
+                              <div class="col-12 ">
+                                <textarea
+                                  type="login"
+                                  class="form-control input-field"
+                                  placeholder="Постарайтеся описати вашу тему максимально відкрито та зрозуміло, щоб правильно донести свою думку до читача."
+                                  rows="5"
+                                  required
+                                  maxlength="10000"
+                                ></textarea>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn login-button ">Створити тему</button>
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </div>
                 </div>          
               </div>
               <div class=" around-window col-12  my-1 theme-list-color  ">
@@ -62,7 +110,6 @@
             </div>
         </div>
     </main>	
-    
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/head.js"></script>
   </body>
