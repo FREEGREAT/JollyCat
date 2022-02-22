@@ -4,7 +4,7 @@ body{
   background: #E5E5E5;
   font-family: 'Montserrat';
   
-  background-image: url('back-body.png');
+  background-image: url('../img/back-body.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #09090A;
@@ -88,7 +88,7 @@ body{
     cursor: pointer;
     text-decoration: underline;
 }
-.font-style{
+.login-font-style{
     font-family: "Montserrat";
     color: white;
     font-style: normal;
@@ -99,13 +99,10 @@ body{
     
 }
 .link-font{
-    font-family: "Montserrat";
+    font-family: "Roboto";
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
-    line-height: 127.9%;
-    letter-spacing: -0.04em;
-    font-variant: small-caps;
     text-decoration: none;
 }
 
@@ -204,8 +201,6 @@ body{
 .theme-list-color{
     background-color:#5D5D5D;
 }
-
-
 .hr-style-table{
     position: relative; 
     border: 2px solid #202020;
@@ -221,7 +216,6 @@ body{
     border: 3px solid white;
     border-radius: 5px;
 }
-
 .window-name-font{
     font-family: "Roboto";
     font-style: normal;
@@ -229,41 +223,15 @@ body{
     font-size: 48px;
     line-height: 127.9%;
     letter-spacing: -0.04em;
-    
     color: #FFFFFF;
 }
-.hot-theme-window-back{
+.chat-window-back{
     background-color:#828282;
 }
-.hot-theme-back{
+.chat-message-back{
     border:1px;
     border-radius: 13px;
     background-color:#5D5D5D;
-}
-.vl-film {
-    border-left: 3px solid #202020;
-    height: 621px;
-}
-.vl-disscusion {
-    border-left: 3px solid #202020;
-    height: 575px;
-}
-.vl-anime{
-    border-left: 3px solid #202020;
-    height: 499px;
-
-}
-.vl-game{
-    border-left: 3px solid #202020;
-    height: 639px;
-}
-.vl-main{
-    border-left: 3px solid #202020;
-    height: 375px;
-}
-.vl-series{
-    border-left: 3px solid #202020;
-    height: 645px;
 }
 .around-window{
     border: 1px;
@@ -347,5 +315,21 @@ body{
     border: 3px solid #AFAFAF;
     border-radius: 2px;
 }
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+#chat-list{
+    height: 200px;
+    overflow-y: scroll;
+}
+#comment{
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
 
 
